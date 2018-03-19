@@ -1,0 +1,413 @@
+.DoctorDetails{
+  height: 100vh;
+  .am-tabs-bar{
+    margin-top: 20px;
+  }
+  .am-tabs-ink-bar{
+    background: #02cd8b!important;
+  }
+  .am-tabs-bar .am-tabs-tab-active{
+    color:#02cd8b;
+    border-bottom:2px solid #02cd8b!important;
+  }
+  .am-tabs-tab-active{
+    color:#02cd8b;
+    border-bottom:2px solid #02cd8b!important;
+  }
+
+  .white_page{
+    width: 100%;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-size: 30px;
+    color: #222222;
+    background: #fff;
+    border-top: 1px solid #d7d7d7;
+  }
+  .active{
+    display: block!important;
+  }
+  .DoctorDetails_head_wrap{
+    position: relative;
+    height: 424px;
+    .loveheart{
+      position: absolute;
+      right: 40px;
+      top: 40px;
+      width: 40px;
+      height: 40px;
+      z-index: 10000;
+    }
+    .Attention_status{
+      display: inline-block;
+      position: absolute;
+      right: 10px;
+      top: 90px;
+      width: 100px;
+      text-align: center;
+      height: 40px;
+      font-size: 28px;
+      color: #fff;
+      z-index: 10000;
+    }
+    // .message_title{
+    //   position: absolute;
+    //   top: 0;
+    //   left: 0;
+    //   width: 100%;
+    //   height: 60px;
+    //   background: #ffe6a1;
+    //   line-height: 60px;
+    //   z-index: 999;
+    //   span:nth-of-type(1){
+    //     width: 80px;
+    //     height: 40px;
+    //     text-align: center;
+    //     line-height: 40px;
+    //     color:#FFF;
+    //     border-radius: 5px;
+    //     margin-left: 40px;
+    //     background: #ffba00;
+    //     font-size: 26px;
+    //     display: inline-block;
+    //   }
+    //   span:nth-of-type(2){
+    //     margin-left: 30px;
+    //     color: #ff8a00;
+    //     font-size: 28px;
+    //   }
+    // }
+    .bg_img{
+      width: 100%;
+      height: 424px;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .user_img{
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      top: 60px;
+      img{
+        width: 118px;
+        height: 118px;
+        border-radius: 50%;
+        border: 8px solid rgba(255, 255, 255, 0.4);
+      }
+    }
+    .user_name{
+      position: absolute;
+      top: 200px;
+      text-align: center;
+      width: 100%;
+      color: #fff;
+      font-size: 32px;
+      span{
+        font-size: 26px;
+        color: #fff;
+        margin-left: 10px;
+      }
+    }
+    .user_title{
+      position: absolute;
+      top: 250px;
+      text-align: center;
+      width: 100%;
+      color: #fff;
+      font-size: 24px;
+      span{
+        font-size: 24px;
+        margin-right: 20px;
+      }
+      span:nth-of-type(2){
+        margin: 0;
+      }
+    }
+    .hospital_name{
+      position: absolute;
+      top: 250px;
+      text-align: center;
+      width: 100%;
+      margin: 0 auto;
+      color: #fff;
+      overflow: hidden;
+      font-size: 26px;
+      overflow: hidden;
+      text-overflow:ellipsis;
+      white-space: nowrap;
+      span:nth-of-type(2){
+        margin-left: 15px;
+      }
+    }
+    .DoctorDetails_title_wrap{
+      position: absolute;
+      top: 300px;
+      display: flex;
+      width: 100%;
+      height: 100px;
+      text-align: center;
+      padding: 16px 0;
+      .DoctorDetails_title_content{
+        flex:1;
+        p:nth-of-type(1){
+          color: #fcb800;
+          font-size: 28px;
+          font-weight: bold;
+        }
+        p:nth-of-type(2){
+          color: #fff;
+          font-size: 24px;
+          margin-top: 10px;
+        }
+      }
+
+    }
+  }
+  .DoctorDetails_info_wrap{
+    padding: 10px 0;
+    background: #fff;
+    .DoctorDetails_info{
+      background: #fff;
+      width: 100%;
+      padding: 10px 30px;
+      height: 110px;
+      overflow: hidden;
+      .title{
+        width: 100%;
+        text-align: left;
+        color: #565656;
+        font-size: 26px;
+        span{
+          color: #565656;
+          font-weight: bold;
+          height: 30px;
+          display: inline-block;
+          font-size: 26px;
+          text-align: center;
+        }
+      }
+      .goodat{
+        width: 100%;
+        padding-bottom: 0;
+        text-align: left;
+        color: #565656;
+        margin-bottom: 10px;
+        font-size: 26px;
+        span{
+          color: #565656;
+          height: 30px;
+          font-weight: bold;
+          display: inline-block;
+          font-size: 26px;
+          text-align: center;
+        }
+      }
+    }
+    .DoctorDetails_info_auto{
+      transition: height 0.5s;
+      height: auto!important;
+    }
+    .open{
+      background: #fff;
+      text-align: center;
+      font-size: 28px;
+      color: #02cd8b;
+      padding: 0.2rem;
+    }
+  }
+  .DoctorDetails_all_sevice{
+    .all_sevice_title{
+      height: 80px;
+      line-height: 80px;
+      text-align: left;
+      font-size: 30px;
+      color: #222222;
+      background: #fff;
+      padding: 0 30px;
+      border-bottom: 1px solid #ccc;
+      margin-top: 20px;
+    }
+    .DoctorDetails_all_sevice_content{
+      display: flex;
+      border-bottom:  1px solid #d7d7d7;
+      background: #fff;
+      height: 180px;
+      padding: 0 30px;
+      .sevice_content{
+        width: 100%;
+        img{
+          margin-top: 40px;
+          width: 100px;
+          height: 100px;
+          // border-radius: 25%;
+        }
+        div:nth-of-type(1){
+          color: #fcb800;
+          font-size: 24px;
+          text-align: center;
+          margin-left: 23px;
+          margin-top: 50px;
+          p:nth-of-type(1){
+            font-size: 30px;
+            color: #222;
+            text-align:left;
+          }
+          p:nth-of-type(2){
+            margin-top: 16px;
+            font-size: 26px;
+            color: #565656;
+            text-align:left;
+          }
+        }
+        div:nth-of-type(2){
+          margin-top: 60px;
+          color: #222222;
+          font-size: 28px;
+          text-align: center;
+          span:nth-of-type(1){
+            font-size: 48px;
+            font-weight:bold;
+            color: #ffba00;
+          }
+          span:nth-of-type(2){
+            font-weight: 26px;
+            font-weight: bold;
+            color: #ffba00;
+          }
+        }
+        .unopen{
+          font-size: 34px;
+          color: #d1d1d1;
+          width: 80px;
+          font-weight: bold;
+          margin-top: 50px;
+        }
+      }
+    }
+  }
+
+
+  .DoctorDetails_Original_wrap{
+    .DoctorDetails_Original{
+      width: 100%;
+      margin-top: 20px;
+      .title{
+        background: #fff;
+        width: 100%;
+        padding: 20px 20px;
+        padding-top: 25px;
+        text-align: left;
+        margin-top: 20px;
+        border-bottom: 1px solid #d7d7d7;
+        span:nth-of-type(1){
+          height: 30px;
+          width: 160px;
+          border-left: 4px solid #02cd8b;
+          display: inline-block;
+          font-size: 28px;
+          color: #222222;
+          text-align: center;
+        }
+        span:nth-of-type(2){
+          height: 30px;
+          width: 160px;
+          display: inline-block;
+          font-size: 24px;
+          color: #999;
+          text-align: center;
+          margin-top: 5px;
+        }
+        a{
+          .moreLives{
+            height: 30px;
+            display: inline-block;
+            font-size: 26px;
+            color: #222222;
+            text-align: center;
+            display: none;
+            img{
+              margin-left: 10px;
+              width: 20px;
+              height: 20px;
+              margin-bottom: 6px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .DoctorDetails_comment_wrap{
+    .title{
+      width: 100%;
+      padding: 20px 20px;
+      text-align: left;
+      margin-top: 20px;
+      span:nth-of-type(1){
+        height: 30px;
+        width: 160px;
+        border-left: 4px solid #02cd8b;
+        display: inline-block;
+        font-size: 28px;
+        color: #222222;
+        text-align: center;
+      }
+      span:nth-of-type(2){
+        margin-top: 5px;
+        height: 30px;
+        width: 160px;
+        display: inline-block;
+        font-size: 24px;
+        color: #999;
+        text-align: center;
+      }
+      a{
+        .moreFeedbacks{
+
+        height: 30px;
+        display: inline-block;
+        font-size: 26px;
+        color: #222222;
+        text-align: center;
+        display: none;
+        img{
+          margin-left: 0.13333rem;
+          width: 0.26667rem;
+          height: 0.26667rem;
+          margin-bottom: 6px;
+        }
+      }
+      }
+    }
+    background: #fff;
+    margin-top: 20px;
+    .DoctorDetails_comment_content{
+      min-height: 180px;
+      border-top: 1px solid #d7d7d7;
+      padding: 30px;
+      .DoctorDetails_comment_top{
+
+        .comment_name_data{
+          span{
+          color: #222;
+          font-size: 28px;
+          }
+          span:nth-of-type(2){
+            margin-left: 10px;
+          }
+        }
+        .comment_score{
+
+        }
+      }
+      .DoctorDetails_comment_bottom{
+        margin-top: 20px;
+        color: #6e6e6e;
+        font-size: 28px;
+      }
+    }
+  }
+
+}

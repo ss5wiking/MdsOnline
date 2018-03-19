@@ -1,0 +1,114 @@
+.MyLiveListItemNew{
+  background: #fff;
+  height: calc(100vh - 1.16rem);
+  .my_livelistitem_wrap{
+    height: 180px;
+    width: 100%;
+    padding: 40px 30px;
+    border-bottom: 1px solid #d7d7d7;
+    position: relative;
+    .my_livelistitem_content{
+      .img_wrap{
+        width: 182px;
+        height: 103px;
+        position: relative;
+        img{
+          width: 182px;
+          height: 103px;
+        }
+        .videotape_status_liveing{
+          position: absolute;
+          width: 100%;
+          height: 40px;
+          bottom: 0;
+          color:#fff;
+          background: rgba(255,72,0,0.6);
+          font-size: 24px;
+          text-align: center;
+          line-height: 40px;
+        }
+        .videotape_status_livewill{
+          position: absolute;
+          width: 100%;
+          height: 40px;
+          bottom: 0;
+          color:#fff;
+          background: rgba(0,205,139,0.6);
+          font-size: 24px;
+          text-align: center;
+          line-height: 40px;
+        }
+      }
+      .video_info{
+        width: 65%;
+        margin-left: 26px;
+        .title{
+          font-size: 30px;
+          color: #222222;
+          text-align: left;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+        .hospital_info{
+          margin-top: 10px;
+          overflow: hidden;
+          text-overflow:ellipsis;
+          white-space: nowrap;
+          span:nth-of-type(1){
+            color:#999999;
+            padding-right: 10px;
+            font-size: 24px;
+          }
+          span:nth-of-type(2){
+            color:#999999;
+            padding-right: 10px;
+            font-size: 24px;
+          }
+        }
+        .videolive_info{
+          margin-top: 10px;
+          text-align: left;
+          .doc_name{
+            margin-right: 0.5rem;
+            font-size: 24px;
+            color: #565656;
+            img{
+              width: 25px;
+              height: 25px;
+              margin-right: 5px;
+            }
+          }
+          .watch_count{
+            margin-right: 0.5rem;
+            font-size: 24px;
+            color: #565656;
+            img{
+              width: 28px;
+              height: 28px;
+              margin-right: 5px;
+            }
+          }
+          .price_status_free{
+            font-size: 24px;
+            color: #02cd8b;
+            img{
+              width: 25px;
+              height: 25px;
+              margin-right: 5px;
+            }
+          }
+          .price_status_cost{
+            font-size: 24px;
+            color: #ff3000;
+            img{
+              width: 25px;
+              height: 25px;
+              margin-right: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

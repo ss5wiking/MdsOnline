@@ -1,0 +1,78 @@
+.up{
+  top:100vh!important;
+}
+.SelectorModalDisease{
+  transition: 0.5s;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  // padding-bottom: 1.3333rem;
+  .title{
+    width: 100%;
+    background: #fff;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 30px;
+    box-sizing: border-box;
+    position: relative;
+    border-bottom: 1px solid #d7d7d7;
+    .cancel{
+      position: absolute;
+      left: 30px;
+      height: 99px;
+      line-height: 99px;
+      text-align: center;
+      font-size: 32px;
+      box-sizing: border-box;
+      color: #999;
+      width: 100px;
+    }
+  }
+  .Selector_main_wrap{
+    background: #f2f2f2;
+    width: 50%;
+    height: calc(100vh - 1.3333rem);
+    .Selector_main{
+      li{
+        height: 100px;
+        font-size: 32px;
+        text-align: left;
+        padding-left: 40px;
+        line-height: 100px;
+        color: #565656;
+        border-bottom: 1px solid #d7d7d7;
+      }
+      .active{
+        color: #02cd8b;
+        background: #fff;
+      }
+      li:active{
+        background: #f2f2f2;
+      }
+    }
+  }
+  .Selector_else_wrap{
+    height: calc(100vh - 1.3333rem);
+    background: #fff;
+    width:50%;
+    .Selector_else{
+      a{
+        display: block;
+        height: 100px;
+        font-size: 30px;
+        text-align: left;
+        padding-left: 40px;
+        line-height: 100px;
+        // border-bottom: 1px solid #ccc;
+      }
+      // .action{
+      //   color: #fff;
+      //   background: #33a9fc;
+      // }
+    }
+  }
+}

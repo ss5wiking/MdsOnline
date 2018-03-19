@@ -1,0 +1,34 @@
+.WhiteNo{
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  .img_wrap{
+    padding-top: 300px;
+    text-align: center;
+    img{
+      width: 220px;
+      height: 142px;
+    }
+  }
+  .tips{
+    margin-top: 40px;
+    font-size: 32px;
+    color: #999999;
+    text-align: center;
+
+  }
+  .add_button{
+    margin-top: 40px;
+    text-align: center;
+    a{
+      display: inline-block;
+      font-size: 32px;
+      color: #02cd8b;
+      border-radius: 10px;
+      width: 360px;
+      height: 80px;
+      line-height: 80px;
+      border: 1px solid #02cd8b;
+    }
+  }
+}

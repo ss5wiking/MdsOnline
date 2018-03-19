@@ -1,0 +1,16 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.impowerBox .qrcode {
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+}
+.impowerBox .title {
+    font-size: 26px;
+    color: #656565;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}

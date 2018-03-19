@@ -1,0 +1,61 @@
+@import 'src/style/mixin';
+// 第四页
+.subscribe_list_wrap{
+  height: calc(100vh - 6.16rem);
+  .space_gray{
+    background: #f2f2f2;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    color: #222222;
+    padding-left: 40px;
+    @include font-size(24px);
+  }
+  .rwarp{
+    height: calc(100% - 0.8rem);
+  }
+  .subscribe_list{
+    background: #fff;
+    li{
+      padding:20px 30px;
+      border-bottom: 1px solid #d7d7d7;
+      img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin-right: 34px;
+      }
+      span:nth-of-type(1){
+        @include font-size(32px);
+        color: #565656;
+        display: inline-block;
+        margin-top: 20px;
+      }
+      span:nth-of-type(2){
+        @include font-size(28px);
+        color: #222222;
+        text-align: center;
+        margin-left: 20px;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        color: #fff;
+        line-height: 40px;
+        display: inline-block;
+        margin-top: 20px;
+      }
+      .color_s{
+        background: #588fff;
+      }
+      .color_d{
+        background: #33a9fc;
+      }
+      .color_h{
+        background: #09a30d;
+      }
+      .color_f{
+        background: #fca033;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@import 'src/style/mixin';
+.am-tab-bar{
+	.am-tab-bar-bar{
+		.am-tab-bar-tab-title{
+			@include font-size(22px);
+		}
+	}
+	.white_space{
+		height: 100px;
+	}
+}

@@ -1,0 +1,43 @@
+.SelectorSecond{
+  height: 100%;
+
+  .Selector_main_wrap{
+    background: #fff;
+    width: 50%;
+    height: 100vh;
+    .Selector_main{
+      li{
+        height: 90px;
+        font-size: 30px;
+        text-align: left;
+        padding-left: 40px;
+        line-height: 90px;
+        border-bottom: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+      }
+      .active{
+        color: #33a9fc;
+      }
+    }
+  }
+  .Selector_else_wrap{
+    height: 100vh ;
+    background: #fff;
+    width:50%;
+    .Selector_else{
+      a{
+        display: block;
+        height: 90px;
+        font-size: 30px;
+        text-align: left;
+        padding-left: 40px;
+        line-height: 90px;
+        // border-bottom: 1px solid #ccc;
+      }
+      .action{
+        color: #fff;
+        background: #33a9fc;
+      }
+    }
+  }
+}

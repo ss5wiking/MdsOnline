@@ -1,0 +1,194 @@
+.HealthRecords{
+
+  .no_HealthRecords{
+    background: #fff;
+    color: #999999;
+    font-size: 30px;
+    line-height: 80px;
+    height: 80px;
+    text-align: center;
+  }
+  .content{
+      height: 100%;
+      overflow: hidden;
+    .Member{
+      margin-top: 20px;
+      background: #fff;
+      .am-list{
+        .am-list-body{
+          .am-list-item{
+            .am-list-line{
+              .am-list-content{
+                color: #222222;
+                font-size: 30px;
+              }
+              .am-list-extra{
+
+                color: #6e6e6e;
+                font-size: 30px;
+                color: #02cd8b;
+              }
+            }
+          }
+        }
+      }
+      .Member_choose{
+        padding: 0 30px;
+        height: 80px;
+        line-height: 80px;
+        border-bottom: 1px solid #d7d7d7;
+        span:nth-of-type(1){
+          color: #222222;
+          font-size: 30px;
+        }
+        span:nth-of-type(2){
+          color: #02cd8b;
+          font-size: 30px;
+        }
+      }
+      p:nth-of-type(1){
+        padding: 0 30px;
+        height: 80px;
+        line-height: 80px;
+        border-bottom: 1px solid #d7d7d7;
+        span:nth-of-type(1){
+          color: #6e6e6e;
+          font-size: 30px;
+          margin-right: 20px;
+        }
+        span:nth-of-type(2){
+          // margin-left: 10px;
+          color: #aaaaaa;
+          font-size: 26px;
+        }
+        span:nth-of-type(3){
+          margin-left: 10px;
+          color: #aaaaaa;
+          font-size: 26px;
+        }
+        span:nth-of-type(4){
+          margin-top: 26px;
+          display: inline-block;
+          width: 70px;
+          height: 30px;
+          text-align: center;
+          line-height: 30px;
+          background: #ffba00;
+          margin-left: 15px;
+          color: #ffffff;
+          font-size: 26px;
+          border-radius: 15px;
+
+        }
+        span:nth-of-type(5){
+          img{
+            width: 30px;
+            height: 30px;
+          }
+        }
+        span:nth-of-type(6){
+          margin-right: 18px;
+          color: #6e6e6e;
+          font-size: 26px;
+        }
+
+      }
+    }
+    .HealthRecords{
+      margin-top: 20px;
+      background: #fff;
+      height: calc( 100vh -214px;);
+      .no_Medicalrecord{
+        background: #fff;
+        color: #999999;
+        font-size: 30px;
+        line-height: 300px;
+        height: 300px;
+        text-align: center;
+      }
+      .title{
+        padding: 0 30px;
+        height: 80px;
+        line-height: 80px;
+        border-bottom: 1px solid #d7d7d7;
+        .HealthRecords_word{
+          color: #222222;
+          font-size: 30px;
+        }
+        .add{
+          color: #02cd8b;
+          font-size: 30px;
+        }
+
+
+      }
+      .HealthRecords_item{
+        border-bottom: 1px solid #d7d7d7;
+        .item{
+          height: 160px;
+          background: #fff;
+          padding-left: 40px;
+          padding-right: 30px;
+          .date{
+            line-height: 160px;
+            color: #222222;
+            font-size: 34px;
+          }
+          .info{
+            margin-left: 40px;
+            p:nth-of-type(1){
+              span:nth-of-type(1){
+                width: 16px;
+                height: 16px;
+                border-radius: 50%;
+                margin-right: 14px;
+                background: #02cd8b;
+                display: inline-block;
+              }
+              span:nth-of-type(2){
+                font-size: 28px;
+                color: #02cd8b;
+                text-align: center;
+              }
+            }
+            p:nth-of-type(2){
+              span:nth-of-type(1){
+                width: 12px;
+                height: 12px;
+                border-radius: 50%;
+                margin-right: 14px;
+                background: #6e6e6e;
+                display: inline-block;
+              }
+              span:nth-of-type(2){
+                font-size: 28px;
+                color: #6e6e6e;
+                text-align: center;
+              }
+            }
+            p:nth-of-type(3){
+              span:nth-of-type(1){
+                width: 12px;
+                height: 12px;
+                border-radius: 50%;
+                margin-right: 16px;
+                display: inline-block;
+                background: #6e6e6e;
+              }
+              span:nth-of-type(2){
+                font-size: 28px;
+                color: #6e6e6e;
+                text-align: center;
+              }
+            }
+          }
+          .Doctor{
+            line-height: 160px;
+            color: #6e6e6e;
+            font-size: 26px;
+          }
+        }
+      }
+    }
+  }
+}

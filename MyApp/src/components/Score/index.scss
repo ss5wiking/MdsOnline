@@ -1,0 +1,20 @@
+.Score{
+	display: inline-block;
+	overflow: hidden;
+	div{
+		position: relative;
+		float: left;
+	}
+	i{
+		float: left;
+		display: inline-block;
+		background: url('/star.svg');
+		background-size:cover;
+	}
+	i.active{
+		background: url('/star1.svg')  left center no-repeat;
+		background-size:cover;
+		position: absolute;
+		left: 0;
+	}
+}

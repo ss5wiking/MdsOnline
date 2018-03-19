@@ -1,0 +1,110 @@
+.MineDoctorsList{
+  .MineDoctorsList_wrap{
+    height: 100vh;
+    .wrap{
+      .list_body{
+    		background: #fff;
+    		padding-top: 30px;
+    		padding-left: 30px;
+    		padding-bottom: 20px;
+    		border-bottom: 1px solid #d7d7d7;
+    		.head{
+    			img{
+    				width: 90px;
+    				height: 90px;
+    				border-radius: 50%;
+    				margin-right: 20px;
+    			}
+    			>div{
+    				width: 75%;
+    				h2{
+    					font-size: 32px;
+    				}
+    				small{
+    					color: #999;
+    				}
+    				p{
+    					margin-top: 20px;
+    			    font-size: 28px;
+      				color: #666;
+      				overflow:hidden;
+    					text-overflow:ellipsis;
+    					white-space:nowrap;
+    				}
+    				.constr{
+    					font-size: 26px;
+              color: #999;
+    					.constr_img{
+    						width: 24px;
+    						height: 24px;
+    						margin-right: 6px;
+    						margin-bottom: 6px;
+    					}
+    					i:nth-of-type(1){
+    						font-size: 26px;
+    						color:#fcb800;
+    						font-style: normal;
+    					}
+    					i:nth-of-type(2){
+    						font-size: 26px;
+    						color: #999;
+    						font-style: normal;
+    					}
+    				}
+    			}
+    		}
+    		.footer{
+    			.good_at{
+    				width: 75%;
+    				font-size: 28px;
+    				color: #565656;
+    				display:-webkit-box;
+    				-webkit-box-orient:vertical;
+    				-webkit-line-clamp:2;
+    				overflow:hidden;
+    		    margin-top: 20px;
+            strong{
+              color: #222;
+            }
+
+    			}
+    			.services_price{
+    				width: 156px;
+    				height: 80px;
+    				border-left: 1px solid #d7d7d7;
+    				text-align: center;
+    				.price{
+    					span:nth-of-type(1){
+    						font-size: 30px;
+    						color: #ffba00
+    					}
+    					span:nth-of-type(2){
+    						font-size: 48px;
+    						color: #ffba00
+    					}
+    				}
+    				.services{
+    					width: 100%;
+    					text-align: center;
+    					font-size: 28px;
+    					color: #999;
+    				}
+    				.none_services{
+    					p:nth-of-type(1){
+    						font-size: 34px;
+    						color: #d1d1d1;
+    					}
+    					p:nth-of-type(2){
+    						font-size: 34px;
+    						color: #d1d1d1;
+    					}
+    				}
+    			}
+    		}
+    	}
+    	.list_body:after{
+    		border:none;
+    	}
+    }
+  }
+}

@@ -1,0 +1,73 @@
+
+.PatientEvaluation{
+	height: 100%;
+	.box{
+		height: 100%;
+	}
+	.title{
+		line-height: 100px;
+		padding-left: 20px;
+		background: #fff;
+	}
+	.title>div{
+		vertical-align: middle;
+		margin-top: -10px;
+	}
+	.title span{
+		font-size: 30px;
+		color: #222;
+	}
+	.title i{
+		font-size: 36px;
+		color: #ffba00;
+		font-style: normal;
+		margin-left: 10px;
+	}
+	.listTitle{
+		line-height: 60px;
+		padding-left: 20px;
+		font-size: 28px;
+		color: #6e6e6e;
+	}
+
+	.box ul .right{
+		float: right;
+	}
+	.box ul li{
+		overflow: hidden;
+		font-size: 26px;
+		line-height: 1.5;
+		padding:20px 30px 20px 20px;
+		border-bottom: 1px solid #ccc;
+		background: #fff;
+	}
+	.box ul h2{
+		font-weight: normal;
+		margin-bottom: 20px;
+		font-size: 26px;
+	}
+	.box ul .type{
+		padding:10px;
+		color: #33a9fc;
+		border: 1px solid #33a9fc;
+		border-radius: 5px;
+		margin-left:20px;
+	}
+	.box ul p{
+		color: #6e6e6e;
+	}
+	.blank{
+		padding-top: 50%;
+		text-align: center;
+	}
+	.box a{
+		line-height: 80px;
+	  width: 360px;
+	  text-align: center;
+	  border: 1px solid #33a9fc;
+	  display: inline-block;
+	  border-radius: 10px;
+	  margin-top: 30px;
+	  color: #33a9fc;
+	}
+}

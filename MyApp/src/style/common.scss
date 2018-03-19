@@ -1,0 +1,189 @@
+/*
+	说明：此文件为公共样式，
+	如需添加，
+	请以common-xxx 命名，
+	并加上注释，
+	并同时通知其他开发人员。
+*/
+
+//公共变量
+//#33a9fc:#33a9fc;
+@import 'src/style/mixin.scss';
+//reset
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration:none!important;
+}
+a:link{text-decoration:none; cursor:pointer;}
+a:visited{text-decoration:none; cursor:pointer}
+a:active{text-decoration:none; cursor:pointer}
+a:hover{text-decoration:none; cursor:pointer}
+body {
+  color: #222;
+  font-size: 14px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+td, th, caption {
+  font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 100%;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+}
+
+ol, ul, li {
+  list-style: none;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+//公共样式
+html,body{
+	// height:100%;
+	font-family: "PingFang SC", "Helvetica Neue", STHeiti, "Microsoft Yahei", Tahoma, Simsun, sans-serif;
+	font-size: 16px;
+	margin:0 auto;
+	// overflow:auto;
+	position:relative;
+	background: #f2f2f2 !important;
+  overflow-x: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+// ant 样式统一修改修改
+// ant 样式统一修改修改
+#root{
+	width: 100%;
+  	height: 100%;
+    overflow: hidden;
+	//标徽
+	.am-badge-text,sub{
+		top:0;
+	}
+	.am-activity-indicator{
+	    justify-content: center;
+	    -webkit-justify-content: center;
+	}
+	.am-textarea-item{
+		padding:0 30px;
+	}
+	//按钮
+	.am-button.btn{
+		height: 80px;
+		line-height: 80px;
+		color:#fff;
+    background: #999;
+		margin:100px auto;
+		font-size: 32px;
+	}
+	.am-button.btn.active{
+		background:#588fff;
+	}
+	.am-button:hover{
+		text-decoration: none;
+	}
+	//switch
+	.am-switch input[type="checkbox"]:checked + .checkbox{
+		background: #588fff;
+	}
+	.am-tabs-ink-bar{
+		background-color: #588fff;
+	}
+}
+
+
+/* ant 全局样式  */
+//修改alert样式
+.am-modal-transparent{
+	width: 560px !important;
+}
+.am-modal-body{
+	font-size: 36px !important;
+	color: #222 !important;
+}
+//统一安卓modal样式
+.am-modal.am-modal-transparent.am-modal-android .am-modal-content{
+  border-radius: 10px !important;
+}
+.am-modal.am-modal-transparent.am-modal-android .am-modal-content .am-modal-body{
+	border-bottom: 1px solid #ddd;
+  text-align: center !important;
+}
+.am-modal-button-group-v .am-modal-button{
+	width: 100% !important;
+}
+.am-modal-footer{
+	padding:0 !important;
+}
+.am-modal-button-group-h{
+	-webkit-justify-content: space-around !important;
+	justify-content: space-around !important;
+}
+//修改picker 超出...
+.am-picker-col-item{
+	overflow: hidden;
+}
+.am-search-start .am-search-synthetic-ph{
+  width:auto !important;
+  text-align: left;
+}
+
+.am-search-cancel-anim{
+
+  transition:none!important;
+}

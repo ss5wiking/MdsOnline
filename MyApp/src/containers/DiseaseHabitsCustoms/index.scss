@@ -1,0 +1,78 @@
+.DiseaseHabitsCustoms{
+  background: #fff;
+  padding-bottom: 20px;
+  .am-list{
+    .am-list-body{
+      .upload{
+        .am-list-item{
+          .am-list-line::after{
+            border-bottom: none;
+          }
+        }
+      }
+      .am-list-item{
+        .am-list-line::after{
+          border-bottom: none;
+          .am-list-content{
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+  .content{
+    .title{
+      padding-top: 24px;
+      padding-left: 30px;
+      color: #222222;
+      font-size: 26px;
+    }
+    .DiseaseHabitsCustoms_main_wrap{
+      padding: 0 15px;
+      .item{
+        width:130px;
+        text-align: center;
+        color: #6e6e6e;
+        font-size: 26px;
+        background: #f0f0f0;
+        line-height: 60px;
+        border-radius: 5px;
+        margin: 20px 25px
+      }
+      .item_green{
+        background: #02cd8b;
+        color: #fff;
+      }
+      .item_lone{
+        width:4.10rem;
+        text-align: center;
+        color: #6e6e6e;
+        font-size: 26px;
+        background: #f0f0f0;
+        line-height: 60px;
+        border-radius: 5px;
+        margin: 20px 25px
+      }
+    }
+    .DiseaseHabitsCustoms_text{
+      margin: 40px 25px;
+      resize: none;
+      border: 1px solid #d7d7d7;
+      height: 280px;
+      width:700px;
+      padding: 20px;
+    }
+  }
+
+  .submit_button{
+    width: 600px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    background: #02cd8b;
+    margin: 60px auto;
+  }
+}

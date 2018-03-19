@@ -1,0 +1,15 @@
+.DiagnoseDetail{
+	font-size: 32px;
+	li{
+		background: #fff;
+		padding:0 30px 30px;
+		.title{
+			color: #888;
+			line-height: 3;
+		}
+	}
+	li.middle{
+		border-top:1px solid #888;
+		border-bottom:1px solid #888;
+	}
+}

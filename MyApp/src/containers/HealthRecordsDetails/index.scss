@@ -1,0 +1,49 @@
+.HealthRecordsDetails{
+  .HealthRecordsDetails_content{
+    .userinfo{
+      width: 100%;
+      background: #fff;
+      padding: 0 30px;
+      height: 80px;
+      line-height: 80px;
+      margin-bottom: 20px;
+      span:nth-of-type(1){
+        font-size: 30px;
+        color: #6e6e6e;
+
+      }
+      span:nth-of-type(2){
+        font-size: 30px;
+        color: #222222;
+      }
+    }
+    .item{
+      width: 100%;
+      background: #fff;
+      padding: 20px 30px;
+      border-bottom: 1px solid #d7d7d7;
+      div:nth-of-type(1){
+        height: 40px;
+        line-height: 40px;
+        font-size: 30px;
+        color: #6e6e6e;
+      }
+      div:nth-of-type(2){
+        text-align: right;
+        font-size: 30px;
+        color: #222222;
+        width: 50%;
+      }
+      a{
+        margin-left: 20px;
+        height: 40px;
+        line-height: 40px;
+        img{
+          width: 20px;
+          height: 20px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+// .my-video-dimensions.video-js.vjs-fluid{
+// 	padding-top: 0;
+//   height: 420px!important;
+// }
+// .my-video-dimensions{
+//     width:710px;
+//     height: 420px;
+// }
+@import 'src/style/mixin';
+
+.video-js.vjs-fluid{
+	height: 5rem!important;
+	padding-top: 0!important;
+}
+/* css */
+.my-error-display{
+    position:absolute;
+    @include font-size(28px);
+    color:white;
+    text-align: center;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    padding:10px;
+    display:none;
+    cursor: pointer;
+}
+/*  前面提到，播放器出现错误时，我们的播放容器div会添加class vjs-error
+ *  这里我们使用这个类来作为错误信息的显示前提
+ */
+.vjs-error .my-error-display{
+    display:block;
+    background: rgba(0,0,0,.3);
+    border-radius: 5px;
+}
+.shuaxinBtn{
+    margin-top: 10px;
+    width: 30px;
+}
+.shuaxinAction{
+    animation:shuaxin 1s linear infinite;
+}
+@keyframes shuaxin{100% { transform:rotate(-360deg); }}
+
+.video-js{
+    padding-top:0;
+}
+.vjs-poster{
+    background-size: cover;
+}

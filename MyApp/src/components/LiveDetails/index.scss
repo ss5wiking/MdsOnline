@@ -1,0 +1,128 @@
+// 第一页
+@import 'src/style/mixin';
+.live_details_Components{
+    background: #fff;
+    height: calc(100vh - 6.16rem);
+    padding-bottom: 2.04rem;
+  .scroll_wrap{
+    .space_gray{
+      background: #f2f2f2;
+      height: 20px;
+      width: 100%;
+    }
+    .theme{
+      width: 100%;
+      padding: 20px 30px;
+      max-height: 120px;
+      border-bottom: 1px solid #d7d7d7;
+      .theme_title{
+        margin-right: 30px;
+        @include font-size(32px);
+        color: #222222;
+      }
+      .theme_content{
+        color: #6e6e6e;
+        max-width: 80%;
+        @include font-size(30px);
+      }
+    }
+    .start_at_time{
+      width: 100%;
+      height:80px;
+      line-height: 80px;
+      padding: 0px 30px;
+      border-bottom: 1px solid #d7d7d7;
+      span:nth-of-type(1){
+        @include font-size(32px);
+        color: #222222;
+      }
+      span:nth-of-type(2){
+        @include font-size(30px);
+        color: #6e6e6e;
+      }
+    }
+    .all_div{
+      border-bottom: 1px solid #d7d7d7;
+      width: 100%;
+      height:80px;
+      line-height: 80px;
+      padding: 0px 30px;
+      span:nth-of-type(1){
+        @include font-size(32px);
+        color: #222222;
+      }
+      span:nth-of-type(2){
+        @include font-size(30px);
+        color: #6e6e6e;
+      }
+    }
+    .keywords_wrap{
+      border-bottom: 1px solid #d7d7d7;
+      padding: 0px 30px;
+      p:nth-of-type(1){
+        padding: 24px 0px 30px 0px;
+        @include font-size(32px);
+        color: #222222;
+      }
+      p:nth-of-type(2){
+        span{
+          float: left;
+          padding: 0 25px;
+          height: 46px;
+          line-height: 46px;
+          border-radius: 5px;
+          border: 1px solid #d7d7d7;
+          margin-right: 30px;
+          text-align: center;
+          margin-bottom: 20px;
+          @include font-size(26px);
+        }
+      }
+    }
+    .live_infomation{
+      padding: 10px 30px;
+      @include font-size(28px);
+      color: #6e6e6e;
+    }
+  }
+  .live_fixed_button{
+    width:100%;
+    padding: 20px 30px;
+    border-top: 1px solid #d7d7d7;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    .collectsed{
+      background: #ccc!important;
+    }
+    a:nth-of-type(1){
+      background: #02cd8b;
+      color: #fff;
+      height: 100px;
+      width: 460px;
+      text-align: center;
+      line-height: 100px;
+      border: 1px solid #d7d7d7;
+      @include font-size(32px);
+      border-radius: 10px;
+    }
+
+    a:nth-of-type(2){
+      width: 200px;
+      background: #fff;
+      color: #222222;
+      @include font-size(32px);
+      text-align: center;
+      height: 100px;
+      line-height: 100px;
+      border: 1px solid #33A9FC;
+      border-radius: 10px;
+      color: #33a9fc;
+    }
+
+    .pay_red{
+      background: #fd6565!important;
+    }
+  }
+}

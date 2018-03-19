@@ -1,0 +1,169 @@
+
+.finddoctor_wrap{
+  height: calc(100vh - 1.33rem);
+  .swipe_wrap{
+    width: 100%;
+    height: 350px;
+
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .search_warp{
+    background: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #d7d7d7;
+    width: 100%;
+    z-index: 1;
+    .uninput{
+      position: relative;
+      height: 60px;
+      background: #f0f0f0;
+      color: #999999;
+      font-size:26px ;
+      text-align: center;
+      line-height: 60px;
+      border-radius: 10px;
+      div{
+        img{
+          top: 15px;
+          left: 130px;
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+  }
+  .lookup{
+    margin-top: 30px;
+    background: #fff;
+    height: 140px;
+    .address_lookup{
+      width: 50%;
+      box-sizing: border-box;
+      border-right: 1px solid #d7d7d7;
+      height: 140px;
+      display: inline-block;
+      .img_wrap{
+        text-align: center;
+        line-height: 140px;
+        width: 40%;
+        img{
+          width: 70px;
+          height: 70px;
+          border-radius: 50%;
+        }
+      }
+      .content{
+        width: 60%;
+        margin-top: 30px;
+        p:nth-of-type(1){
+          text-align: left;
+          font-size: 30px;
+          color: #565656;
+        }
+        p:nth-of-type(2){
+          text-align: left;
+          margin-top: 12px;
+          font-size: 24px;
+          color: #6e6e6e;
+        }
+      }
+
+    }
+    .department_lookup{
+      width: 50%;
+      height: 140px;
+      display: inline-block;
+      .img_wrap{
+        width: 40%;
+        text-align: center;
+        line-height: 140px;
+        img{
+          width: 70px;
+          height: 70px;
+          border-radius: 50%;
+        }
+      }
+      .content{
+          width: 60%;
+          margin-top: 30px;
+        p:nth-of-type(1){
+          text-align: left;
+          font-size: 30px;
+          color: #565656;
+        }
+        p:nth-of-type(2){
+          text-align: left;
+          margin-top: 12px;
+          font-size: 24px;
+          color: #6e6e6e;
+        }
+      }
+    }
+  }
+  .common_diseases{
+    background: #fff;
+    margin-top: 30px;
+    .common_diseases_title{
+      line-height: 60px;
+      height: 60px;
+      padding: 0 40px;
+      border-bottom: 1px solid #d7d7d7;
+      span:nth-of-type(1){
+        font-size: 28px;
+        color: #565656;
+      }
+      span:nth-of-type(2){
+        font-size: 24px;
+        color: #03d893;
+      }
+    }
+    .common_diseases_list{
+      padding: 0 40px;
+      margin-top: 30px;
+      .am-flexbox-item{
+        text-align: center;
+        line-height: 39px;
+        border: 1px solid #d7d7d7;
+        font-size: 24px;
+        color: #6e6e6e;
+        border-radius: 5px;
+      }
+    }
+    .common_diseases_list_last{
+      padding-bottom: 20px;
+    }
+  }
+  .all_departments{
+    margin-top: 30px;
+    background: #fff;
+    .all_departments_title{
+      border-bottom: 1px solid #d7d7d7;
+      line-height: 60px;
+      padding: 0 40px;
+      font-size: 28px;
+      color: #565656;
+    }
+    .all_departments_list{
+      border-bottom: 1px solid #d7d7d7;
+      .am-flexbox-item{
+        height: 188px;
+        text-align: center;
+        padding-top: 30px;
+        border-right: 1px solid #d7d7d7;
+        img{
+          width: 100%;
+          max-width: 70px;
+          height: 70px;
+        }
+        p{
+          margin-top: 10px;
+          font-size: 28px;
+          color: #6e6e6e;
+        }
+      }
+    }
+  }
+}

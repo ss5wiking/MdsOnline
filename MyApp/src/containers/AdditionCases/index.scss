@@ -1,0 +1,227 @@
+.AdditionCases{
+  background: #fff;
+  height: 100%;
+  textarea{min-height: 260px;}
+  .AdditionCases_content{
+    padding-bottom: 80px;
+    .am-button-primary{
+      border: none;
+    }
+    .Diagnosis{
+      .Diagnosis_man{
+        border-bottom: 1px solid #d7d7d7;
+        height: 80px;
+        line-height: 80px;
+        background: #fff;
+        padding: 0 30px;
+        span:nth-of-type(1){
+          color: #6e6e6e;
+          font-size: 30px;
+
+        }
+        span:nth-of-type(2){
+          color: #6e6e6e;
+          font-size: 30px;
+
+        }
+      }
+      .Diagnosis_date{
+        border-bottom: 1px solid #d7d7d7;
+        height: 80px;
+        line-height: 80px;
+        background: #fff;
+        padding: 0 30px;
+
+        span:nth-of-type(1){
+          color: #6e6e6e;
+          font-size: 30px;
+
+        }
+        span:nth-of-type(3){
+          color: #6e6e6e;
+          font-size: 30px;
+
+        }
+        span:nth-of-type(2){
+          img{
+            width: 20px;
+            height: 20px;
+          }
+        }
+
+      }
+      .Diagnosis_info{
+        border-bottom: 1px solid #d7d7d7;
+        height: 80px;
+        line-height: 80px;
+        background: #fff;
+        padding: 0 30px;
+        span:nth-of-type(1){
+          color: #6e6e6e;
+          font-size: 30px;
+
+        }
+        span:nth-of-type(2){
+          color: #999999;
+          font-size: 26px;
+          img{
+            width: 20px;
+            height: 20px;
+          }
+        }
+        span:nth-of-type(3){
+          color: #999999;
+          font-size: 26px;
+          margin-right: 20px;
+        }
+        input{
+          width: 150px;
+          height: 78px;
+          line-height: 78px;
+          border: none;
+          outline: none;
+          text-align: right;
+          color: #6e6e6e;
+          font-size: 30px;
+        }
+      }
+    }
+    .Hospital{
+      margin-top: 20px;
+      .Hospital_name{
+        border-bottom: 1px solid #d7d7d7;
+        height: 80px;
+        line-height: 80px;
+        background: #fff;
+        padding: 0 30px;
+        span:nth-of-type(1){
+          color: #6e6e6e;
+          font-size: 30px;
+
+        }
+        span:nth-of-type(2){
+          color: #999999;
+          font-size: 26px;
+          img{
+            width: 20px;
+            height: 20px;
+          }
+        }
+        span:nth-of-type(3){
+          color: #999999;
+          font-size: 26px;
+          margin-right: 20px;
+        }
+        input{
+          width: 150px;
+          height: 78px;
+          line-height: 78px;
+          border: none;
+          outline: none;
+          text-align: right;
+          color: #6e6e6e;
+          font-size: 30px;
+        }
+      }
+      .Hospital_Department{
+        border-bottom: 1px solid #d7d7d7;
+        height: 80px;
+        line-height: 80px;
+        background: #fff;
+        padding: 0 30px;
+        span:nth-of-type(1){
+          color: #6e6e6e;
+          font-size: 30px;
+
+        }
+        span:nth-of-type(2){
+          color: #999999;
+          font-size: 26px;
+          img{
+            width: 20px;
+            height: 20px;
+          }
+        }
+        span:nth-of-type(3){
+          color: #999999;
+          font-size: 26px;
+
+        }
+      }
+      .Doctor_Name{
+        border-bottom: 1px solid #d7d7d7;
+        height: 80px;
+        line-height: 80px;
+        background: #fff;
+        padding: 0 30px;
+        span:nth-of-type(1){
+          color: #6e6e6e;
+          font-size: 30px;
+
+        }
+        span:nth-of-type(2){
+          color: #999999;
+          font-size: 26px;
+          img{
+            width: 20px;
+            height: 20px;
+          }
+        }
+        span:nth-of-type(3){
+          color: #999999;
+          font-size: 26px;
+          margin-right: 20px;
+        }
+        input{
+          width: 150px;
+          height: 78px;
+          line-height: 78px;
+          border: none;
+          outline: none;
+          text-align: right;
+          color: #6e6e6e;
+          font-size: 30px;
+        }
+      }
+    }
+    .Symptom{
+      background: #fff;
+      padding:0 30px;
+      p{
+        color: #6e6e6e;
+        font-size: 30px;
+        padding-top: 20px;
+      }
+      textarea{
+        resize: none;
+        border: none;
+        outline: none;
+        margin-top: 20px;
+        color: #999999;
+        font-size: 30px;
+      }
+    }
+  }
+  .am-list-item .am-input-control input{
+    text-align: right;
+  }
+  .am-button-primary{
+
+  }
+  .am-list{
+    .am-list-body{
+      .upload{
+        .am-list-item{
+          .am-list-line::after{
+            border-bottom: none;
+          }
+        }
+      }
+      .am-list-item{
+        .am-list-line::after{
+          border-bottom: none;
+        }
+      }
+    }
+  }
+}

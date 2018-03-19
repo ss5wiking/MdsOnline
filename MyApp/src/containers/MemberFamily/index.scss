@@ -1,0 +1,153 @@
+.MemberFamily_wrap{
+  .am-list-item{
+    border: 1px solid #d7d7d7;
+  }
+  .MemberFamily_wrap_content{
+    height: 100vh;
+    padding-bottom: 1.6rem;
+    .MemberFamily_wrap_iscroll{
+      .person_info_top{
+        background: #fff;
+        width: 100%;
+        height: 180px;
+        padding:0 20px;
+        line-height: 90px;
+        height: 90px;
+        .user_name{
+          font-size: 30px;
+          color: #222222;
+        }
+        .user_sex{
+          margin-left: 30px;
+          font-size: 26px;
+          color: #999999;
+        }
+        .user_age{
+          margin-left: 14px;
+          font-size: 26px;
+          color: #999999;
+        }
+        .user_checked{
+          margin-left: 10px;
+          .am-switch{
+            .checkbox{
+
+            }
+            .checkbox::after{
+
+            }
+            .checkbox::before{
+
+            }
+          }
+        }
+        .user_relationship{
+          width: 70px;
+          height: 30px;
+          border-radius: 15px;
+          color:#fff;
+          background: #ffba00;
+          font-size: 24px;
+          margin-top: 28px;
+          line-height: 30px;
+          margin-left: 22px;
+          text-align: center;
+        }
+        .user_defult{
+          font-size: 26px;
+          color: #999999;
+
+        }
+      }
+      .person_info_bottom{
+        background: #fff;
+        width: 100%;
+        height: 180px;
+        padding:0 20px;
+        line-height: 90px;
+        height: 90px;
+        .user_id{
+          color: #6e6e6e;
+          font-size: 30px;
+        }
+        .user_phone{
+          color: #6e6e6e;
+          font-size: 30px;
+        }
+      }
+    }
+    .add_img{
+      position: fixed;
+      text-align: center;
+      width: 100%;
+      height: 120px;
+      line-height: 120px;
+      background: #fff;
+      bottom: 0;
+      left: 0;
+      font-size: 32px;
+      color: #02cd8b;
+      a{
+        font-size: 32px;
+        color: #02cd8b;
+      }
+      img{
+        width: 42px;
+        height: 42px;
+        margin-right: 16px;
+      }
+    }
+  }
+  .MemberFamily_none{
+    .img_wrap{
+      margin-top: 300px;
+      text-align: center;
+      img{
+        width: 220px;
+        height: 142px;
+      }
+    }
+    .tips{
+      margin-top: 40px;
+      font-size: 32px;
+      color: #999999;
+      text-align: center;
+
+    }
+    .add_button{
+      margin-top: 40px;
+      text-align: center;
+      a{
+        display: inline-block;
+        font-size: 32px;
+        color: #02cd8b;
+        border-radius: 10px;
+        width: 360px;
+        height: 80px;
+        line-height: 80px;
+        border: 1px solid #02cd8b;
+      }
+    }
+    .add_img{
+      position: fixed;
+      text-align: center;
+      width: 100%;
+      height: 120px;
+      line-height: 120px;
+      background: #fff;
+      bottom: 0;
+      left: 0;
+      font-size: 32px;
+      color: #02cd8b;
+      a{
+        font-size: 32px;
+        color: #02cd8b;
+      }
+      img{
+        width: 42px;
+        height: 42px;
+        margin-right: 16px;
+      }
+    }
+  }
+}
